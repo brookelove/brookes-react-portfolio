@@ -1,12 +1,14 @@
 // import react to initalize
 import React from "react";
-// import HelloDiv from "./components";
-
+// importing the different components 
+import Navbar from "./components/Navbar";
 
 function App() {
-  return {
-      
-  };
-}
+    return (
+      <div>
+        <Navbar />
+      </div>
+    );
+  }
 
 export default App;
