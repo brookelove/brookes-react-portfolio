@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+// why wont this hover on load 
+nav {
+    margin: 20px;
+    background: #f9f9f9;
+    .menuItems {
+      list-style: none;
+      display: flex;
+      color: #8f8f8f;
+
+      p {
+          font-size: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px;
+      }
+   .links{
+       display: flex;
+       justify-content: end;
+        li {
+            margin: 50px;
+            
+            a {
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+            transition: all 0.5s ease-in-out;
+    
+            &::before {
+                content: attr(data-item);
+                transition: 0.5s;
+                color: black;
+                position: absolute;
+                overflow: hidden;
+            }
+    
+            &:hover {
+                &::before {
+                width: 100%;
+                transition: all 0.5s ease-in-out;
+                }
+            }
+            }
+        }
+    }
+  }
+}

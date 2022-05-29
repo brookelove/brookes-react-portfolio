@@ -2,16 +2,22 @@ import React from 'react';
 import '../styles/Navbar.css';
 
 export default function Navbar () {
+
+    return ( 
     <div>
-        <nav className='navbar'> 
-            <a href="/">Brooke Love</a>
-            <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact me</li>
-                <li>Resume</li>
+        <nav > 
+            <ul className='menuItems'>
+                <p>Brooke Love</p>
+                <div className='links'>
+                    <li ><a href="/">Home</a></li>
+                    <li><a href="/aboutMe">About</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/contactMe">Contact</a></li>
+                    <li><a href="/resume">Resume</a></li>
+                </div>
             </ul>
         </nav>
     </div>
+    )
 }
 
