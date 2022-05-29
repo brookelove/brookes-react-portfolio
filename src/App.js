@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import About from "./components/About"
 import Tools from "./components/Tools"
+import Projects from "./components/Projects"
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <About />
         <Tools />
+        <Projects />
       </div>
     );
   }
