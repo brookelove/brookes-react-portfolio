@@ -1,0 +1,37 @@
+@import "./scss/Navbar.scss";
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+    padding: 10px;
+    margin: 10px;
+    font-size: 60px;
+    // keep the color black maybe? needs to be changed to Raque!
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding: 20px;
+}
+.contentContainer {
+    display: flex;
+    img{
+        padding: 10px;
+        display: flex;
+    }
+    p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        font-family: 'Gilda Display', serif;
+
+    }
+}

@@ -20,7 +20,7 @@ nav {
           justify-content: center;
           align-items: center;
           padding: 5px;
-        //   want this to be RAque but will deal with later 
+        //   want this to be Raque but will deal with later 
           font-family: 'Playfair Display', serif;
           
       }
@@ -36,10 +36,10 @@ nav {
             color: #8f8f8f;
             font-size: 24px;
             transition: all 0.5s ease-in-out;
+             //   want this to be Raque but will deal with later 
             font-family: 'Playfair Display', serif;
     
                 &::before {
-                    content: attr(data-item);
                     transition: 0.5s;
                     color: #8f8f8f;
                     position: absolute;
