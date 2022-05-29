@@ -1,12 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
-    // padding: 0;
     margin: 0;
 }
 // why wont this hover on load 
 nav {
-    // margin: 20px;
     background: #f9f9f9;
     .menuItems {
       list-style: none;
@@ -19,7 +17,8 @@ nav {
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 5px;
+          padding: 50px;
+          font-size: 20px;
         //   want this to be Raque but will deal with later 
           font-family: 'Playfair Display', serif;
           
@@ -27,14 +26,15 @@ nav {
     //   need to justify content end or make it go to the right to split
    .links{
        display: flex;
-       justify-content: end;
+       align-items: center;
+
         li {
-            margin: 50px;
+            margin: 30px;
             
             a {
             text-decoration: none;
             color: #8f8f8f;
-            font-size: 24px;
+            font-size: 20px;
             transition: all 0.5s ease-in-out;
              //   want this to be Raque but will deal with later 
             font-family: 'Playfair Display', serif;

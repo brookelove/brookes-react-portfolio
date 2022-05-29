@@ -11,6 +11,7 @@ export default function Navbar () {
                 <div className='links'>
                     <li ><a href="/">Home</a></li>
                     <li><a href="/aboutMe">About</a></li>
+                    <li><a href="/tools&skills">Tools& Skills</a></li>
                     <li><a href="/projects">Projects</a></li>
                     <li><a href="/contactMe">Contact</a></li>
                     <li><a href="/resume">Resume</a></li>
