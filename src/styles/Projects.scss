@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
 .container {
     display: flex;
     flex-direction: row;
@@ -6,11 +8,61 @@
     .card {
         background-color: whitesmoke;
         width: 300px;
-        height: 300px;
+        height: 400px;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 5px;
+        &:hover {
+            background-color: gray;
+            transform: scale(1.05);
+            transition: all 0.5s ease;
+            
+        } 
+        .cardTitle {
+            display: flex;
+            justify-content: center;
+            margin: 2px;
+        }
         .card_img {
             background-color: azure;
             height: 175px;
             margin-bottom: 15px;
+            border-radius: 10px 10px 0 0;
+            background-size: cover;
         }
+        p {
+            font-size: 12px;
+            height: 140px;
+            overflow-y: scroll;
+            // need to change the paragraph font
+            // font-family: 'Playfair Display', serif;
+        }
+        .card-1 {
+            background-image: url("http://placecorgi.com/260/180");
+        }
+        .card-2 {
+            background-image: url("http://placecorgi.com/260/180");
+        }
+        .card-3 {
+            background-image: url("http://placecorgi.com/260/180");
+        }
+        .card-4 {
+            background-image: url("http://placecorgi.com/260/180");
+        }
+        .card-5 {
+            background-image: url("http://placecorgi.com/260/180");
+        }
+        .card-6 {
+            background-image: url("http://placecorgi.com/260/180");
+        }
+        ul {
+            display: flex;
+            justify-content: space-around;
+            text-decoration: none;
+            li {
+                list-style-type: none;
+            }
+        }
+
     }
 }

@@ -22,6 +22,7 @@ h3 {
 }
 .contentContainer {
     display: flex;
+    flex-wrap: wrap;
     img{
         padding: 10px;
         display: flex;
