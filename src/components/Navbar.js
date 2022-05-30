@@ -5,7 +5,7 @@ export default function Navbar () {
 
     return ( 
     <div>
-        <nav > 
+        <nav> 
             <ul className='menuItems'>
                 <p>Brooke Love</p>
                 <div className='links'>
