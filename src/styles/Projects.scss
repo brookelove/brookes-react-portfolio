@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
 body {
-    background-color: #ed6335;
+    // background-color: #ed6335;
 }
 h4 {
     display: flex;
@@ -19,10 +19,10 @@ h4 {
         width: 250px;
         height: 400px;
         margin: 10px;
-        padding: 5px;
-        border-radius: 10px;
+        padding: 15px;
+        // border-radius: 10px;
         color: rgb(75, 64, 64);
-        background-color: #fbd266;
+        background-color: #fbe9db;
         font-family: 'Gilda Display', serif;
         &:hover {
             color: whitesmoke;
@@ -45,7 +45,6 @@ h4 {
             background-color: azure;
             height: 175px;
             margin-bottom: 15px;
-            border-radius: 10px 10px 0 0;
             background-size: cover;
         }
         p {

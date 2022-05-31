@@ -71,6 +71,10 @@ nav .menuItems .links li a:hover::before {
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: white;
+  color: black;
+}
 .outsideAbout {
   display: flex;
   justify-self: unset;
@@ -79,8 +83,8 @@ nav .menuItems .links li a:hover::before {
 
 .aboutContainer {
   height: 730px;
-  color: #f9f9f9;
-  background-color: #064c72;
+  /* color: #f9f9f9; */
+  /* background-color: #064c72; */
 }
 
 h1 {
