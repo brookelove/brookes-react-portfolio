@@ -1,10 +1,14 @@
+
 .footerContainer {
-    margin: 200px;
+    height: 530px;
+    background: #e5cec6;
+    padding-top: 200px;
     .endPage {
         margin: 60px 0 60px 0;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+            font-family: 'Gilda Display', serif;
     }
     a {
         margin: 5px 5px 0 5px;
@@ -18,5 +22,11 @@ h5 {
 h6 {
     display: flex;
     font-size: 15px;
+    margin-right: 150px;
     justify-content: flex-end;
+    font-family: 'Gilda Display', serif;
+}
+a {
+    text-decoration: none;
+    color: black;
 }

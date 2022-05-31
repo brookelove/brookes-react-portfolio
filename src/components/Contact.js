@@ -1,6 +1,18 @@
 import React from "react";
 import "../styles/Contact.css"
+import emailjs from "emailjs-com";
 import { RiCellphoneFill } from "react-icons/ri";
+
+function sendEmail(e) {
+    e.preventDefault();
+    emailjs.sendForm('gmail', 'template_4zmvws8', e.current, 'Kdn3GR-8xYIyGih5i')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+}
 
 export default function Contact () {
     return (
@@ -12,12 +24,12 @@ export default function Contact () {
                     <RiCellphoneFill size="2em"/>
                 </div>
                 <div>
-                    <form action="#" method="post" id="contactPage">
+                    <form action="#" method="post" id="contactPage" onSubmit={sendEmail}>
                         <div className="nameEmailContainer">
-                            <input type="text" placeholder="Your Name Here" name="name" id="nameInput" required></input>
-                            <input type="text" placeholder="Your Email Here" name="name" id="emailInput" required></input>
+                            <input name="name" type="text" placeholder="Your Name Here" id="nameInput" required></input>
+                            <input name="email" type="text" placeholder="Your Email Here"id="emailInput" required></input>
                         </div>
-                        <select placeholder="Subject line" name="subject" id="subject_input" required>
+                        <select name="subject" placeholder="Subject line" id="subject_input" required>
                             <option disabled hidden selected>Subject line</option>
                             <option>Let's talk about a project</option>
                             <option>Can I ask a question</option>

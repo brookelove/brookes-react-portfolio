@@ -1,8 +1,9 @@
-.footerContainer {
-  margin: 200px;
+.resumeContainer {
+  background-color: #ecae7d;
+  padding: 70px;
 }
 
-.footerContainer .imageContainer {
+.resumeContainer .imageContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,7 +12,7 @@
           justify-content: center;
 }
 
-.footerContainer .imageContainer .resumeImg {
+.resumeContainer .imageContainer .resumeImg {
   background-image: url("http://placecorgi.com/260/180");
   width: 400px;
   height: 500px;

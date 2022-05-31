@@ -2,12 +2,11 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 200px 0 200px 0;
   justify-self: unset;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #2A9d;
+  background-color: #4182bc;
 }
 
 .formContainer {
@@ -25,8 +24,8 @@
       -ms-flex-align: center;
           align-items: center;
   border: solid 2px grey;
-  color: #8f8f8f;
-  background-color: #ffd468;
+  color: #555252;
+  background-color: #e5cec6;
 }
 
 .formContainer .formTitle {
@@ -65,8 +64,8 @@
   border: none;
   border-bottom: solid 2px grey;
   text-transform: uppercase;
-  color: #8f8f8f;
-  background-color: #e9c46A;
+  color: #555252;
+  background-color: #e5cec6;
 }
 
 .formContainer form .nameEmailContainer {
@@ -80,19 +79,19 @@
 .formContainer form select {
   margin: 20px;
   border: none;
-  color: #8f8f8f;
+  color: #555252;
   border-bottom: solid 2px grey;
   text-transform: uppercase;
-  background-color: #e9c46A;
+  background-color: #e5cec6;
 }
 
 .formContainer form textarea {
   margin: 20px;
   border: none;
+  font-size: 17px;
   border-bottom: solid 2px grey;
-  text-transform: uppercase;
-  color: #8f8f8f;
-  background-color: #e9c46A;
+  color: #555252;
+  background-color: #e5cec6;
 }
 
 .formContainer form .submitBTN {
@@ -100,9 +99,17 @@
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
+  border-radius: 5px;
   border: solid 3px grey;
   background-color: white;
   color: #8f8f8f;
-  background-color: #ffd468;
+  background-color: #e5cec6;
+}
+
+.formContainer form .submitBTN:hover {
+  background-color: black;
+  color: beige;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 /*# sourceMappingURL=Contact.css.map */

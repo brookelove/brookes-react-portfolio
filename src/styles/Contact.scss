@@ -1,9 +1,9 @@
 .contactContainer {
     display: flex;
-    margin: 200px 0 200px 0;
+    // margin: 200px 0 200px 0;
     justify-self: unset;
     justify-content: center;
-    background-color: #2A9d;
+    background-color: #4182bc;
 }
 .formContainer {
     margin: 170px;
@@ -13,8 +13,8 @@
     flex-direction: column;
     align-items: center;
     border: solid 2px grey;
-    color: #8f8f8f;
-    background-color: #ffd468;
+    color: #555252;
+    background-color: #e5cec6;
     .formTitle {
         margin-bottom: 0;
         display: flex;
@@ -36,8 +36,8 @@
             border: none;
             border-bottom: solid 2px grey;
             text-transform: uppercase;
-            color: #8f8f8f;
-            background-color: #e9c46A;
+            color: #555252;
+            background-color: #e5cec6;
         }
         .nameEmailContainer {
             display: flex;
@@ -46,26 +46,33 @@
         select {
             margin: 20px;
             border: none;
-            color: #8f8f8f;
+            color: #555252;
             border-bottom: solid 2px grey;
             text-transform: uppercase;
-            background-color: #e9c46A;
+            background-color: #e5cec6;
         }
         textarea {
             margin: 20px;
             border: none;
+            font-size: 17px;
             border-bottom: solid 2px grey;
-            text-transform: uppercase;
-            color: #8f8f8f;
-            background-color: #e9c46A;
+            color: #555252;
+            background-color: #e5cec6;
         }
         .submitBTN {
             display: flex;
             padding: 10px;
+            border-radius: 5px;
             border: solid 3px grey;
             background-color: white;
             color: #8f8f8f;
-            background-color: #ffd468;
+            background-color: #e5cec6;
+            &:hover {
+                background-color: black;
+                color: beige;
+                transition: all 1s ease;
+                
+            }
         }
     }
 }

@@ -1,16 +1,24 @@
+body {
+    
+}
 .toolContainer {
-    margin: 200px;
+    // margin: 200px 0 200px 0;
+    height: 730px;
+    background-color: #8db4ad;
 h4 {
     display: flex;
     justify-content: center;
     font-size: 30px;
     padding: 50px;
+    font-family: 'Gilda Display', serif;
 }
 
 .gridContainer {
     display: flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    font-family: 'Gilda Display', serif;
     .grid_item {
         font-size: 20px;
         padding: 5px;

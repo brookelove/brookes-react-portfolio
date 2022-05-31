@@ -4,9 +4,13 @@
     margin: 0;
     padding: 0;
 }
-.aboutContainer {
-    background-color: #F4473A;
-
+// why is this not working?
+.outsideAbout {
+    display: flex;
+    justify-self: unset;
+    height: 500px;
+    // margin: 200px 0 200px 0;
+}
 h1 {
     padding: 10px;
     margin: 10px;
@@ -24,10 +28,10 @@ h3 {
 .contentContainer {
     display: flex;
     flex-wrap: wrap;
-    img{
-        padding: 10px;
-        display: flex;
+    .personalImage {
+        background-image: url("../images/me.png");
     }
+
     p {
         display: flex;
         flex-direction: column;
@@ -36,5 +40,4 @@ h3 {
         font-family: 'Gilda Display', serif;
 
     }
-}
 }

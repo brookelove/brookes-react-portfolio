@@ -1,5 +1,6 @@
 .toolContainer {
-  margin: 200px;
+  height: 730px;
+  background-color: #8db4ad;
 }
 
 .toolContainer h4 {
@@ -11,17 +12,22 @@
           justify-content: center;
   font-size: 30px;
   padding: 50px;
+  font-family: 'Gilda Display', serif;
 }
 
 .toolContainer .gridContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-family: 'Gilda Display', serif;
 }
 
 .toolContainer .gridContainer .grid_item {
