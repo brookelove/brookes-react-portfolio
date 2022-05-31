@@ -1,0 +1,13 @@
+.footerContainer {
+    margin: 200px;
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        .resumeImg {
+            background-image: url("http://placecorgi.com/260/180");
+            width: 400px;
+            height: 500px;
+            background-size: cover;
+        }
+    }
+}

@@ -8,7 +8,7 @@ export default function Footer () {
         <div className="endPage" >
                 <div className="wordContainer">
                     <h5>Want To Check More out</h5>
-                    <h5>Click the icons below</h5>
+                    <h5>Click Those Icons</h5>
                 </div>
                 <div className="iconContainer">
                     <a><FaGithubSquare size="4em"/></a>

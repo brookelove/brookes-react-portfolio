@@ -6,6 +6,7 @@ import About from "./components/About";
 import Tools from "./components/Tools";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume"
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Tools />
         <Projects />
         <Contact />
+        <Resume />
         <Footer />
       </div>
     );
