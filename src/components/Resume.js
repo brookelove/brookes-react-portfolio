@@ -3,7 +3,7 @@ import "../styles/Resume.css"
 
 export default function Resume() {
     return (
-        <div className="footerContainer">
+        <div id="resume" className="footerContainer">
             <h1>Resume</h1>
             <div className="imageContainer">
                 <div className="resumeImg"><a> <img/> </a></div>

@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithubSquare, FaCodepen } from "react-icons/fa";
 import "../styles/Footer.css"
 export default function Footer () {
     return (
-        <div className="footerContainer">
+        <div id="links"className="footerContainer">
             <h1>Thanks For Coming</h1>
         <div className="endPage" >
                 <div className="wordContainer">

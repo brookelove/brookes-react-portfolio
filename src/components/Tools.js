@@ -7,7 +7,7 @@ import '../styles/Tools.css';
 
 export default function Tools () {
     return (
-     <div className='toolContainer'>
+     <div id="tools&skills" className='toolContainer'>
          <h1> Tools & Skills</h1>
          <h4> The Tools & Skills I have learned so far...</h4>
         <div className='gridContainer'>

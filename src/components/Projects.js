@@ -3,7 +3,7 @@ import "../styles/Projects.css"
 
 export default function Navbar () {
     return (
-        <div className="projectsContainer">
+        <div id="projects"className="projectsContainer">
             <h1>Projects</h1>
             <h4> Here are a few of the projects I have worked on</h4>
             <div className="container">

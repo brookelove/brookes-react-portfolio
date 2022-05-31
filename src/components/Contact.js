@@ -4,7 +4,7 @@ import { RiCellphoneFill } from "react-icons/ri";
 
 export default function Contact () {
     return (
-        <div className="container">
+        <div id="contactMe" className="container">
             <div className="formContainer">
                 <h1 className="formTitle">Reach out</h1>
                 <div class="underline"></div>
