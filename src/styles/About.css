@@ -72,14 +72,16 @@ nav .menuItems .links li a:hover::before {
   padding: 0;
 }
 
-body {
-  font-family: 'Playfair Display', serif;
+.aboutContainer {
+  background-color: #064a5a;
+  color: #f9f9f9;
 }
 
 h1 {
   padding: 10px;
-  margin: 10px;
+  /* margin: 10px; */
   font-size: 60px;
+  font-family: 'Playfair Display', serif;
 }
 
 h3 {
@@ -91,6 +93,7 @@ h3 {
           justify-content: center;
   font-size: 40px;
   padding: 20px;
+  font-family: 'Playfair Display', serif;
 }
 
 .contentContainer {

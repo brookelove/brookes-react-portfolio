@@ -1,3 +1,15 @@
+.contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 200px 0 200px 0;
+  justify-self: unset;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #2A9d;
+}
+
 .formContainer {
   margin: 170px;
   width: 500px;
@@ -13,6 +25,8 @@
       -ms-flex-align: center;
           align-items: center;
   border: solid 2px grey;
+  color: #8f8f8f;
+  background-color: #ffd468;
 }
 
 .formContainer .formTitle {
@@ -51,6 +65,8 @@
   border: none;
   border-bottom: solid 2px grey;
   text-transform: uppercase;
+  color: #8f8f8f;
+  background-color: #e9c46A;
 }
 
 .formContainer form .nameEmailContainer {
@@ -64,8 +80,10 @@
 .formContainer form select {
   margin: 20px;
   border: none;
+  color: #8f8f8f;
   border-bottom: solid 2px grey;
   text-transform: uppercase;
+  background-color: #e9c46A;
 }
 
 .formContainer form textarea {
@@ -73,6 +91,8 @@
   border: none;
   border-bottom: solid 2px grey;
   text-transform: uppercase;
+  color: #8f8f8f;
+  background-color: #e9c46A;
 }
 
 .formContainer form .submitBTN {
@@ -80,7 +100,9 @@
   display: -ms-flexbox;
   display: flex;
   padding: 10px;
-  border: solid 2px grey;
+  border: solid 3px grey;
   background-color: white;
+  color: #8f8f8f;
+  background-color: #ffd468;
 }
 /*# sourceMappingURL=Contact.css.map */

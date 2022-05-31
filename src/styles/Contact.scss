@@ -1,4 +1,10 @@
-
+.contactContainer {
+    display: flex;
+    margin: 200px 0 200px 0;
+    justify-self: unset;
+    justify-content: center;
+    background-color: #2A9d;
+}
 .formContainer {
     margin: 170px;
     width: 500px;
@@ -7,6 +13,8 @@
     flex-direction: column;
     align-items: center;
     border: solid 2px grey;
+    color: #8f8f8f;
+    background-color: #ffd468;
     .formTitle {
         margin-bottom: 0;
         display: flex;
@@ -28,6 +36,8 @@
             border: none;
             border-bottom: solid 2px grey;
             text-transform: uppercase;
+            color: #8f8f8f;
+            background-color: #e9c46A;
         }
         .nameEmailContainer {
             display: flex;
@@ -36,20 +46,26 @@
         select {
             margin: 20px;
             border: none;
+            color: #8f8f8f;
             border-bottom: solid 2px grey;
             text-transform: uppercase;
+            background-color: #e9c46A;
         }
         textarea {
             margin: 20px;
             border: none;
             border-bottom: solid 2px grey;
             text-transform: uppercase;
+            color: #8f8f8f;
+            background-color: #e9c46A;
         }
         .submitBTN {
             display: flex;
             padding: 10px;
-            border: solid 2px grey;
+            border: solid 3px grey;
             background-color: white;
+            color: #8f8f8f;
+            background-color: #ffd468;
         }
     }
 }
