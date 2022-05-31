@@ -1,7 +1,7 @@
 .formContainer {
-  margin: 200px;
+  margin: 170px;
   width: 500px;
-  height: 400px;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,7 +28,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 450px;
+  width: 430px;
   margin: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -39,11 +39,41 @@
           justify-content: center;
 }
 
+.formContainer form input {
+  margin: 20px;
+  border: none;
+  border-bottom: solid 2px grey;
+  text-transform: uppercase;
+}
+
 .formContainer form .nameEmailContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.formContainer form select {
+  margin: 20px;
+  border: none;
+  border-bottom: solid 2px grey;
+  text-transform: uppercase;
+}
+
+.formContainer form textarea {
+  margin: 20px;
+  border: none;
+  border-bottom: solid 2px grey;
+  text-transform: uppercase;
+}
+
+.formContainer form .submitBTN {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  border: solid 2px grey;
+  background-color: white;
 }
 /*# sourceMappingURL=Contact.css.map */

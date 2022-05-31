@@ -24,7 +24,9 @@ export default function Contact () {
                             <option>I'd like to discuss something</option>
                         </select>
                         <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
-                        <input type="submit" value="Send Message" id="form_button" />
+                        <div className="btnContainer">
+                            <input type="submit" value="Send Message" id="form_button" className="submitBTN"/>
+                        </div>
                     </form>
                 </div>
             </div>
