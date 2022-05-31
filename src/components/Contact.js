@@ -1,11 +1,14 @@
-import React from "react";
+import React, {useRef} from "react";
 import "../styles/Contact.css"
 import emailjs from "emailjs-com";
 import { RiCellphoneFill } from "react-icons/ri";
 
+export const ContactUs = () => {
+    const contactForm = useRef(null);
+
 function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm('gmail', 'template_4zmvws8', e.current, 'Kdn3GR-8xYIyGih5i')
+    emailjs.sendForm('service_yksvsn7', 'template_4zmvws8', contactForm.current, 'Kdn3GR-8xYIyGih5i')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -14,7 +17,6 @@ function sendEmail(e) {
       e.target.reset();
 }
 
-export default function Contact () {
     return (
         <div id="contactMe" className="contactContainer">
             <div className="formContainer">
@@ -24,7 +26,7 @@ export default function Contact () {
                     <RiCellphoneFill size="2em"/>
                 </div>
                 <div>
-                    <form action="#" method="post" id="contactPage" onSubmit={sendEmail}>
+                    <form ref={contactForm} action="#" method="post" id="contactPage" onSubmit={sendEmail}>
                         <div className="nameEmailContainer">
                             <input name="name" type="text" placeholder="Your Name Here" id="nameInput" required></input>
                             <input name="email" type="text" placeholder="Your Email Here"id="emailInput" required></input>
@@ -45,3 +47,5 @@ export default function Contact () {
         </div>
     )
 }
+
+export default ContactUs
