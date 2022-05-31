@@ -8,8 +8,14 @@
     align-items: center;
     border: solid 2px grey;
     .formTitle {
+        margin-bottom: 0;
         display: flex;
         justify-content: center;
+    }
+    .underline {
+        width: 100px;
+        border-bottom: solid 2px grey;
+        margin-bottom: 8px;
     }
     form {
         display: flex;

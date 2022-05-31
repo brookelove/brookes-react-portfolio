@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Contact.css"
-
+import { RiCellphoneFill } from "react-icons/ri";
 
 export default function Contact () {
     return (
@@ -9,7 +9,7 @@ export default function Contact () {
                 <h1 className="formTitle">Reach out</h1>
                 <div class="underline"></div>
                 <div class="iconContainer">
-                    {/* icon */}
+                    <RiCellphoneFill size="2em"/>
                 </div>
                 <div>
                     <form action="#" method="post" id="contactPage">
