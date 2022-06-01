@@ -6,7 +6,7 @@ export default function About () {
         <div class="outsideAbout">
         <div id="about" className="aboutContainer">
             <h1>About Me</h1> 
-            <h3>I am ... <div id='rotatingPrompt'></div></h3>
+            <h3>My name is Brooke and I am a software developer <div id='rotatingPrompt'></div></h3>
             <div className='contentContainer'>
                 <div className='personalImage'></div>
             <div className="personalBio">

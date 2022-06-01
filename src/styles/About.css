@@ -145,6 +145,12 @@ h3 {
   background-image: url("../images/me.png");
 }
 @media screen and (max-width: 768px){
+  h1 {
+    padding-left: 30px;
+  }
+  h4 {
+    padding-left: 30px;
+  }
   .menuItems {
     display: flex;
     flex-direction: column;
