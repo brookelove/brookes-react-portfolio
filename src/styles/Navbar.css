@@ -40,7 +40,7 @@ nav .menuItems .links {
           align-items: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
+          justify-content: center;
 }
 
 nav .menuItems .links li {
