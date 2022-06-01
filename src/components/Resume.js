@@ -35,7 +35,7 @@ export default function Resume() {
             <Document file={myResume} onLoadSuccess={onDocumentLoadSuccess} options={options}>
                 <Page height="600" pageNumber={pageNumber} />
             </Document>
-            <a>Click me if you want a closer look</a>
+            <a href={myResume} download>Click me if you want to download</a>
         </div>
     )
 }
