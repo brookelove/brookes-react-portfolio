@@ -3,7 +3,7 @@
     // margin: 200px 0 200px 0;
     justify-self: unset;
     justify-content: center;
-    // background-color: #4182bc;
+    background-color: black;
 }
 .formContainer {
     margin: 170px;
@@ -13,8 +13,8 @@
     flex-direction: column;
     align-items: center;
     border: solid 2px grey;
-    color: #555252;
-    background-color: #e5cec6;
+    color: rgb(41, 41, 41);
+    background-color: whitesmoke;
     .formTitle {
         margin-bottom: 0;
         display: flex;
@@ -22,8 +22,8 @@
     }
     .underline {
         width: 100px;
-        border-bottom: solid 2px grey;
         margin-bottom: 8px;
+        border-bottom: solid 2px grey;
     }
     form {
         display: flex;
@@ -34,10 +34,11 @@
         input {
             margin: 20px;
             border: none;
+            color: rgb(41, 41, 41);
+            font-family: 'Italiana', serif;
             border-bottom: solid 2px grey;
             text-transform: uppercase;
-            color: #555252;
-            background-color: #e5cec6;
+            background-color: white;
         }
         .nameEmailContainer {
             display: flex;
@@ -46,30 +47,31 @@
         select {
             margin: 20px;
             border: none;
-            color: #555252;
+            color: rgb(41, 41, 41);
+            font-family: 'Italiana', serif;
             border-bottom: solid 2px grey;
             text-transform: uppercase;
-            background-color: #e5cec6;
+            background-color: white;
         }
         textarea {
             margin: 20px;
             border: none;
             font-size: 17px;
             border-bottom: solid 2px grey;
-            color: #555252;
-            background-color: #e5cec6;
+            color: rgb(41, 41, 41);
+            background-color: white;
         }
         .submitBTN {
             display: flex;
             padding: 10px;
             border-radius: 5px;
-            border: solid 3px grey;
+            border: solid 2px grey;
             background-color: white;
-            color: #8f8f8f;
-            background-color: #e5cec6;
+            color:rgb(41, 41, 41);
+            background-color: white;
             &:hover {
                 background-color: black;
-                color: beige;
+                color: whitesmoke;
                 transition: all 1s ease;
                 
             }

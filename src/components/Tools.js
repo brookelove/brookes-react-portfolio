@@ -8,6 +8,7 @@ import '../styles/Tools.css';
 export default function Tools () {
     return (
      <div id="tools&skills" className='toolContainer'>
+         <div className='toolElements'>
          <h1> Tools & Skills</h1>
          <h4> The Tools & Skills I have learned so far...</h4>
         <div className='gridContainer'>
@@ -53,7 +54,8 @@ export default function Tools () {
             </div>
         </div>
         {/* have to figure out why there is no space here */}
-        <h4> I am currently learning <u>React</u>.</h4>
+        <h4> I am currently learning React</h4>
+        </div>
      </div> 
     )
 }

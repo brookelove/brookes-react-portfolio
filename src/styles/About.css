@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 * {
   margin: 0;
 }
@@ -28,7 +29,7 @@ nav .menuItems p {
       -ms-flex-align: center;
           align-items: center;
   padding: 5px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Italiana', serif;
 }
 
 nav .menuItems .links {
@@ -110,6 +111,9 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
 
 .contentContainer img {
@@ -120,17 +124,30 @@ h3 {
 }
 
 .contentContainer p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 20px;
-  font-family: 'Gilda Display', serif;
+  font-family: 'Italiana', serif;
+}
+.personalBio {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 60%;
+}
+.personalImage {
+  display: flex;
+  flex-basis: 40%;
+  width: 100px;
+  height: 400px;
+  padding: 20px;
+  /* height: auto; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/me.png");
+}
+@media screen and (max-width: 768px){
+  .menuItems {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /*# sourceMappingURL=About.css.map */

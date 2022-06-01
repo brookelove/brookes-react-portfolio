@@ -1,5 +1,8 @@
 .toolContainer {
-  height: 730px;
+  height: 830px;
+  margin: 500px 0 200px 0;
+  color: whitesmoke;
+  background-color: black;
 }
 
 .toolContainer h4 {
@@ -14,6 +17,23 @@
   font-family: 'Gilda Display', serif;
 }
 
+.toolContainer .toolElements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .toolContainer .gridContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,7 +46,7 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-family: 'Gilda Display', serif;
+  font-family: 'Italiana', serif;
 }
 
 .toolContainer .gridContainer .grid_item {

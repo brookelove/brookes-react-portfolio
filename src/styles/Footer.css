@@ -1,6 +1,7 @@
 .footerContainer {
   height: 530px;
-  background: #e5cec6;
+  color: whitesmoke;
+  background: black;
   padding-top: 200px;
 }
 
@@ -13,7 +14,7 @@
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  font-family: 'Gilda Display', serif;
+  font-family: 'Italiana', serif;
 }
 
 .footerContainer a {
@@ -34,11 +35,11 @@ h6 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  font-family: 'Gilda Display', serif;
+  font-family: 'Italiana', serif;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
 }
 /*# sourceMappingURL=Footer.css.map */

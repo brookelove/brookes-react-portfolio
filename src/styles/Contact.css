@@ -6,6 +6,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: black;
 }
 
 .formContainer {
@@ -23,8 +24,8 @@
       -ms-flex-align: center;
           align-items: center;
   border: solid 2px grey;
-  color: #555252;
-  background-color: #e5cec6;
+  color: #292929;
+  background-color: whitesmoke;
 }
 
 .formContainer .formTitle {
@@ -39,8 +40,8 @@
 
 .formContainer .underline {
   width: 100px;
-  border-bottom: solid 2px grey;
   margin-bottom: 8px;
+  border-bottom: solid 2px grey;
 }
 
 .formContainer form {
@@ -61,10 +62,11 @@
 .formContainer form input {
   margin: 20px;
   border: none;
+  color: #292929;
+  font-family: 'Italiana', serif;
   border-bottom: solid 2px grey;
   text-transform: uppercase;
-  color: #555252;
-  background-color: #e5cec6;
+  background-color: white;
 }
 
 .formContainer form .nameEmailContainer {
@@ -78,10 +80,11 @@
 .formContainer form select {
   margin: 20px;
   border: none;
-  color: #555252;
+  color: #292929;
+  font-family: 'Italiana', serif;
   border-bottom: solid 2px grey;
   text-transform: uppercase;
-  background-color: #e5cec6;
+  background-color: white;
 }
 
 .formContainer form textarea {
@@ -89,8 +92,8 @@
   border: none;
   font-size: 17px;
   border-bottom: solid 2px grey;
-  color: #555252;
-  background-color: #e5cec6;
+  color: #292929;
+  background-color: white;
 }
 
 .formContainer form .submitBTN {
@@ -99,15 +102,15 @@
   display: flex;
   padding: 10px;
   border-radius: 5px;
-  border: solid 3px grey;
+  border: solid 2px grey;
   background-color: white;
-  color: #8f8f8f;
-  background-color: #e5cec6;
+  color: #292929;
+  background-color: white;
 }
 
 .formContainer form .submitBTN:hover {
   background-color: black;
-  color: beige;
+  color: whitesmoke;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }

@@ -73,4 +73,12 @@ nav .menuItems .links li a:hover::before {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 768px) {
+  .links {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+  }
+}
 /*# sourceMappingURL=Navbar.css.map */

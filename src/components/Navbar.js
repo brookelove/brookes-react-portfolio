@@ -1,14 +1,16 @@
-import React, {Component} from 'react';
+import React, {Component, useState} from 'react';
 import '../styles/Navbar.css';
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
 
 export default class Navbar extends Component {
+
+   
+
     render (){
         return ( 
-        <div>
+        <header>
             <nav> 
                 <ul className='menuItems'>
-                    <p>Brooke Love</p>
                     <div className='links'>
                         {/* <li ><Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link></li> */}
                         <li><Link to="about" spy={true} smooth={true}>About</Link></li>
@@ -20,7 +22,7 @@ export default class Navbar extends Component {
                     </div>
                 </ul>
             </nav>
-        </div>
+        </header>
         )
     }
 }
