@@ -3,9 +3,8 @@
   display: -ms-flexbox;
   display: flex;
   justify-self: unset;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background-color: black;
 }
 
@@ -113,5 +112,10 @@
   color: whitesmoke;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
+}
+@media screen and (max-width: 425px){
+  .formContainer {
+    width: 400px;
+  }
 }
 /*# sourceMappingURL=Contact.css.map */

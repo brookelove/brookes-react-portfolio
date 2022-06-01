@@ -32,9 +32,11 @@ export default function Resume() {
     return (
         <div id="resume" className="resumeContainer">
             <h1>Resume</h1>
+            <div className="resumeBox">
             <Document file={myResume} onLoadSuccess={onDocumentLoadSuccess} options={options}>
                 <Page height="600" pageNumber={pageNumber} />
             </Document>
+            </div>
             <a href={myResume} download>Click me if you want to download</a>
         </div>
     )

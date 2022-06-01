@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+.landingContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.landingContainer p {
+  display: flex flex-wrap;
+  margin: 50px;
+  font-size: 30px;
+  font-family: 'Italiana', serif;
+}
+
+.landingContainer .landingImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  height: 600px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-image: url("../images/computerSmall.png");
+}
+/*# sourceMappingURL=Landing.css.map */
