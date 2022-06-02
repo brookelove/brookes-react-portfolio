@@ -1,7 +1,7 @@
 import React from "react"
 import "../styles/Projects.css"
 
-export default function Navbar () {
+export const Projects = (props) => {
     return (
         <div id="projects"className="projectsContainer">
             <h1>Projects</h1>
@@ -38,11 +38,7 @@ export default function Navbar () {
                 <div className="card">
                     <div className="card_img card-4"></div>
                     <h2 className="cardTitle">Booklastic Blog</h2>
-                    <p>Welcome to Booklastic Blog Place! This application is a full-stack blog where bookies can bond. We aim to recruit users from around the world, to create a community of people who love to read! Come visit our site to share with our community what you have been reading and your review (including thoughts, opinions and questions) about your book. Save your review to your personal library page, but also share it with the world! From your personal library page, you can edit/delete your reviews if needed. From the homepage, you can read all reviews and leave comments on their! Interact with others by including questions in your review for them to comment on, or commenting on others reviews. Additionally, use our live chat feature to communicate with bookies in real time!
-
-                    On the backend, we have a library database of books that stores both titles and authors and links to associated genres. You can choose from a book with already have, or add a new one! Additionally, we house a database of our user accounts (first name, email and encrypted passwords). Associated to each user are their blogs, books, and comments!
-
-                    We aim to help you find a good book recommendation (or a few) for the next time you are ready to head to the bookstore!</p>
+                    <p>Welcome to Booklastic Blog Place! This application is a full-stack blog where bookies can bond. We aim to recruit users from around the world, to create a community of people who love to read! Come visit our site to share with our community what you have been reading and your review (including thoughts, opinions and questions) about your book. Save your review to your personal library page, but also share it with the world! From your personal library page, you can edit/delete your reviews if needed. From the homepage, you can read all reviews and leave comments on their! Interact with others by including questions in your review for them to comment on, or commenting on others reviews. Additionally, use our live chat feature to communicate with bookies in real time!</p>
                     <ul>
                         <li><a href="https://fathomless-bastion-58602.herokuapp.com/">Website</a></li>
                         <li><a href="https://github.com/brookelove/booklastic-blog-place">Github</a></li>
@@ -70,3 +66,5 @@ export default function Navbar () {
         </div>
     )
 }
+
+export default Projects;
