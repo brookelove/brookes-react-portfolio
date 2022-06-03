@@ -1,8 +1,10 @@
 import React from "react"
 import "../styles/Projects.css"
+import Display from "./Display";
 
-export const Projects = (props) => {
+const Projects = (props) => {
     return (
+        // <Display />
         <div id="projects"className="projectsContainer">
             <h1>Projects</h1>
             <h4> Here are a few of the projects I have worked on</h4>
@@ -57,6 +59,15 @@ export const Projects = (props) => {
                     <div className="card_img card-6"></div>
                     <h2 className="cardTitle">E-Commerce Store</h2>
                     <p>This is a backend product that allows people to input data about a store that carries tags, prices, products, and seperates them by categeory that the user intends them for.</p>
+                    <ul>
+                        <li><a href="https://www.canva.com/design/DAE_5C5rEcM/csd8G0WAccJXoq15ImvbGw/watch?utm_content=DAE_5C5rEcM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Link to Video</a></li>
+                        <li><a href="https://github.com/brookelove/E-Commerce-Back-End">Github</a></li>
+                    </ul>
+                </div>
+                <div className="card">
+                    <div className="card_img card-6"></div>
+                    <h2 className="cardTitle">E-Commerce Store</h2>
+                    <p>{props.title}.</p>
                     <ul>
                         <li><a href="https://www.canva.com/design/DAE_5C5rEcM/csd8G0WAccJXoq15ImvbGw/watch?utm_content=DAE_5C5rEcM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">Link to Video</a></li>
                         <li><a href="https://github.com/brookelove/E-Commerce-Back-End">Github</a></li>
